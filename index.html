@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application to Ur Space Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="Person 1" id="astronaut1">
+    <img src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="Person 2" id="astronaut2">
+    <form action="">
+        <h1>Rocket Around The Moon with Your BFFs!</h1>
+        <label class="block" for="Country">Departure Country</label>
+        <select name="countries" id="countries">
+            <option value="India">India</option>
+            <option value="USA">Usa</option>
+            <option value="UAE">Uae</option>
+        </select>
+    
+        <label class="block" for="travellers">No. Of Space Travellers</label>
+        <input type="number" id="travellers" name="travellers">
+
+        <label class="block" for="email"> Your Email</label>
+        <input type="text" name="email" id="email" placeholder="ilovespace@gmail.com">
+
+        <label class="block" for="rent">Do You want to Rent a Space suit?</label>
+        <input type="radio" name="rent-button" id="yes">
+        <label class="rent-label" for="yes">Yes Please</label>
+        <input type="radio" name="rent-button" id="no">
+        <label class="rent-label" for="no">Have my own suits</label>
+        <input id="button" type="submit" value="TAKE US TO SPACE">
+    </form>
+</body>
+</html>
